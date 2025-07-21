@@ -1,0 +1,555 @@
+<mjml>
+    <mj-head>
+        <mj-title>Jets Better Monthly</mj-title>
+        <mj-font name="SuisseIntl-Bold"
+                 href="https://db.onlinewebfonts.com/c/d1a580023d40c546276decde1c711e60?family=SuisseIntl-Bold"/>
+        <mj-font name="SuisseIntl-Regular"
+                 href="https://db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=SuisseIntl-Regular"/>
+        <mj-style>
+            .mobile-only {
+                display: none !important;
+            }
+
+            .desktop-only {
+                display: block !important;
+            }
+
+            @media (max-width: 570px) {
+                .desktop-only {
+                    display: none !important;
+                }
+
+                .mobile-only {
+                    display: block !important;
+                }
+
+                .b-mob-mobile img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+            }
+        </mj-style>
+        <mj-attributes>
+            <mj-all font-family="'SuisseIntl-Regular', Arial, sans-serif"/>
+            <mj-text font-size="16px" line-height="22px" color="#000000"/>
+            <mj-section padding="0"/>
+            <mj-divider border-width="1px" border-color="#000"/>
+            <mj-class name="title-text" font-size="37px" line-height="100%" font-weight="400" color="#000"/>
+            <mj-class name="subtitle-text" font-size="24px" line-height="30px"/>
+            <mj-class name="body-text-small" font-size="11px" font-weight="400" line-height="140%"/>
+            <mj-class name="button-image" padding="0 0 4px 0"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body width="600px" background-color="#F1F1F1">
+
+        <mj-wrapper padding="0">
+            <mj-section>
+                <mj-column>
+                    <mj-image
+                            src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/cc271f21-2aba-7020-7ae2-383461c5ea31.png"
+                            alt="Jets Better Header"
+                            padding="0"/>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-wrapper
+                padding="0 0 10px 0"
+                background-url="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/648263ff-0f0e-7aba-f480-2c6828a2b9ee.png"
+                background-repeat="no-repeat"
+                background-size="cover"
+        >
+            <mj-section padding="0 0 0 0">
+                <mj-column>
+                    <mj-table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="width:60%; vertical-align:middle; text-align: center;">
+                                <p style="font-family:'SuisseIntl-Regular', Arial, sans-serif; font-style: italic; font-weight: 300; font-size: 64px; line-height: 80%; text-align: center; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                                    JULY 2025
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:60%; vertical-align: top; text-align: center;">
+                                <p style="font-family:'SuisseIntl-Regular', Arial, sans-serif; font-style: italic; font-weight: 300; font-size: 24px; line-height: 80%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                                    Life moves fast, and we’re here<br>to help you keep up
+                                </p>
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+
+            <mj-section css-class="desktop-only" padding="10px 0 20px 0">
+                <mj-group width="55%" vertical-align="bottom">
+                    <mj-column width="50%" padding-bottom="30px">
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/42145899-fc67-bc8c-8a96-3f1ca8eaea64.png"
+                                  alt="Mykonos" border-radius="65px" padding="0"/>
+                        <mj-text align="center" padding="5px 0 10px 0">Mykonos</mj-text>
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/64b66514-a913-e8d9-bd90-ab50f6de7382.png"
+                                  alt="Ibiza" border-radius="65px" padding="0"/>
+                        <mj-text align="center" padding-top="5px">Ibiza</mj-text>
+                    </mj-column>
+                    <mj-column padding-bottom="30px" padding-right="20px">
+                        <mj-text align="center" font-weight="450" padding="0 0 5px 0">Saint-Tropez</mj-text>
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/dc14ec76-bc72-991c-e543-d55dcf13e24c.png"
+                                  alt="Saint-Tropez" border-radius="65px" padding="0 0 5px 0"/>
+                        <mj-text align="center" padding="0 0 5px 0">Nice</mj-text>
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/08976cd1-988e-8266-ce25-9cc6f8971bd9.png"
+                                  alt="Nice" border-radius="65px" padding="0"/>
+                    </mj-column>
+                </mj-group>
+                <mj-column width="45%" padding="0 25px 50px 5px" vertical-align="bottom">
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="title-text" padding="7.5px 0 0 0">Trending</mj-text>
+                    <mj-text mj-class="title-text" padding="1px 0 7.5px 0">Destinations</mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="body-text-small" padding="7px 0 7px 0">We continuously analyze historical private
+                        jet landing data. Explore the destinations where private jets are touching down the most next
+                        month - these are the must-visit spots for elite travelers.
+                    </mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="body-text-small" padding="7px 0 25px 0">Unsure how to communicate this to your
+                        clients? Our marketing support provides tailored White Label content solutions to help you
+                        shine.
+                    </mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="subtitle-text" padding="7.5px 0 9.5px 0">Take a look at our approach</mj-text>
+                    <mj-image mj-class="button-image" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/fa349c84-6784-5e43-440d-44a42bbf12ee.png"
+                              alt="Social Media Post & Stories"/>
+                    <mj-image mj-class="button-image" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/b5e459ec-1995-ec32-ea58-d05937016f0c.png"
+                              alt="PDF Brochure"/>
+                    <mj-image mj-class="button-image" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/82840e94-815b-1174-b35c-cd8363a69911.png"
+                              alt="Email Campaign Design File" padding="0"/>
+                </mj-column>
+            </mj-section>
+
+            <mj-section css-class="mobile-only" padding="10px 20px 0 20px">
+                <mj-group>
+                    <mj-column width="50%" padding-top="20px">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/4e14f962-11a2-6e5f-adf4-4f2c88c3ef69.png"
+                                alt="Mykonos" border-radius="65px"/>
+                        <mj-text align="center" padding="5px 10px 15px 10px">Mykonos</mj-text>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/09fddd66-899b-2a77-7568-f84ff61aef95.png"
+                                alt="Ibiza" border-radius="65px"/>
+                        <mj-text align="center" padding="5px 10px 15px 10px">Ibiza</mj-text>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/4158ca17-0703-bded-9917-93169ced71ed.png"
+                                alt="Saint-Tropez" border-radius="65px"/>
+                        <mj-text align="center" padding="5px 10px 15px 10px">Saint-Tropez</mj-text>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/a7cd71ce-205f-f155-f654-159a000ed5a4.png"
+                                alt="Nice" border-radius="65px"/>
+                        <mj-text align="center" padding="5px 10px 15px 10px">Nice</mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-section css-class="mobile-only" padding="0 20px 20px 20px">
+                <mj-column>
+                    <mj-divider padding="20px 0 15px 0"/>
+                    <mj-text align="center" font-size="32px" line-height="110%" padding-bottom="15px">Trending
+                        Destinations
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">We continuously analyze historical
+                        private jet landing data. Explore the destinations where private jets are touching down the most
+                        next month - these are the must-visit spots for elite travelers.
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">Unsure how to communicate this to your
+                        clients? Our marketing support provides tailored White Label content solutions to help you
+                        shine.
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text align="center" font-size="22px" padding="20px 0 15px 0">Take a look at our approach
+                    </mj-text>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/fa349c84-6784-5e43-440d-44a42bbf12ee.png"
+                              alt="Social Media Post & Stories"/>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/b5e459ec-1995-ec32-ea58-d05937016f0c.png"
+                              alt="PDF Brochure"/>
+                    <mj-image css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/82840e94-815b-1174-b35c-cd8363a69911.png"
+                              alt="Email Campaign Design File" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="mobile-only" padding="0 20px 20px 20px">
+                <mj-column>
+                    <mj-divider padding="20px 0 15px 0"/>
+                    <mj-text align="center" font-size="32px" line-height="110%" padding-bottom="15px">Trending
+                        Destinations
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">We continuously analyze historical
+                        private jet landing data. Explore the destinations where private jets are touching down the most
+                        next month - these are the must-visit spots for elite travelers.
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">Unsure how to communicate this to your
+                        clients? Our marketing support provides tailored White Label content solutions to help you
+                        shine.
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text align="center" font-size="22px" padding="20px 0 15px 0">Take a look at our approach
+                    </mj-text>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/fa349c84-6784-5e43-440d-44a42bbf12ee.png"
+                              alt="Social Media Post & Stories"/>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/b5e459ec-1995-ec32-ea58-d05937016f0c.png"
+                              alt="PDF Brochure"/>
+                    <mj-image css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/82840e94-815b-1174-b35c-cd8363a69911.png"
+                              alt="Email Campaign Design File" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="desktop-only" padding="0">
+                <mj-column width="45%" padding="0 5px 50px 25px" vertical-align="bottom">
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="title-text" padding="7.5px 0 7.5px 0">Jet Worthy Events</mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="body-text-small" padding="7px 0 16px 0">These are the must-attend events that are
+                        attracting private jets from around the globe
+                    </mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="body-text-small" padding="7px 0 87px 0">These events are perfect opportunities to
+                        offer private jet charter to your clients.
+                    </mj-text>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="subtitle-text" padding="7.5px 0 16px 0">Check out how to promote it</mj-text>
+                    <mj-image mj-class="button-image" css-class="b-mob" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/9e72b915-71b5-dba9-d8e0-3e82ded77e6a.png"
+                              alt="Social Media Post & Stories"/>
+                    <mj-image mj-class="button-image" css-class="b-mob" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/5ffa7759-0995-4b98-2a31-c06815fcd55b.png"
+                              alt="PDF Brochure"/>
+                    <mj-image css-class="b-mob" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/cbb7a046-568e-86e6-2281-f243d35d5376.png"
+                              alt="Email Campaign Design File" padding="0"/>
+                </mj-column>
+                <mj-group width="55%" vertical-align="top">
+                    <mj-column padding="0 0 30px 20px">
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/e1b2cacf-2eb6-5ffe-068c-3e8fc8bffd6a.png"
+                                  alt="Saint-Tropez" border-radius="65px" padding="0 0 30px 0"/>
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/032f7590-1a84-9bb0-b3e7-820169dd52f2.png"
+                                  alt="Nice" border-radius="65px" padding="0"/>
+                    </mj-column>
+                    <mj-column width="50%" padding-bottom="30px">
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/0dac50f8-9070-3b8f-8e99-59f1e755f35a.png"
+                                  alt="Mykonos" border-radius="65px" padding="30px 0 30px 0"/>
+                        <mj-image align="center" width="130px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/5ced6570-2833-d46b-0bc1-e8eff735afa3.png"
+                                  alt="Ibiza" border-radius="65px" padding="0"/>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section css-class="mobile-only" padding="20px 20px 0 20px">
+                <mj-group>
+                    <mj-column width="50%" padding-top="20px">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/e1b2cacf-2eb6-5ffe-068c-3e8fc8bffd6a.png"
+                                alt="Mykonos" border-radius="65px"/>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/032f7590-1a84-9bb0-b3e7-820169dd52f2.png"
+                                alt="Ibiza" border-radius="65px"/>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/0dac50f8-9070-3b8f-8e99-59f1e755f35a.png"
+                                alt="Saint-Tropez" border-radius="65px"/>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/5ced6570-2833-d46b-0bc1-e8eff735afa3.png"
+                                alt="Nice" border-radius="65px"/>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section css-class="mobile-only" padding="0 20px 20px 20px">
+                <mj-column>
+                    <mj-divider padding="20px 0 15px 0" align="left"/>
+                    <mj-text align="center" font-size="32px" line-height="110%" padding-bottom="15px">Jet Worthy
+                        Events
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">These are the must-attend events that
+                        are attracting private jets from around the globe
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text font-size="14px" line-height="140%" padding="15px 0">These events are perfect opportunities
+                        to offer private jet charter to your clients.
+                    </mj-text>
+                    <mj-divider/>
+                    <mj-text align="center" font-size="22px" padding="20px 0 15px 0">Check out how to promote it
+                    </mj-text>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/9e72b915-71b5-dba9-d8e0-3e82ded77e6a.png"
+                              alt="Social Media Post & Stories"/>
+                    <mj-image mj-class="button-image" css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/5ffa7759-0995-4b98-2a31-c06815fcd55b.png"
+                              alt="PDF Brochure"/>
+                    <mj-image css-class="b-mob-mobile" href="#"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/cbb7a046-568e-86e6-2281-f243d35d5376.png"
+                              alt="Email Campaign Design File" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0 20px 10px 20px">
+                <mj-column>
+                    <mj-divider padding="0"/>
+                    <mj-text mj-class="title-text" align="left" padding="0 0 10px 0">Revenue Opportunities</mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="desktop-only" padding="10px 54px 9px 54px">
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/59e126c9-06d3-7de0-fd46-1cfe2e06d853.png"
+                              alt="Paris to Nice" padding="0"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/2ad73026-02b7-b731-f853-e8157ef33466.png"
+                              alt="Rome to Mykonos" padding="0"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4.5px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/03234b78-da74-8734-dc88-2dd768afd514.png"
+                              alt="London to St. Tropez" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="desktop-only" padding="0 54px 0 54px">
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/71fb6323-d804-8069-5f2b-b913ed83dbc6.png"
+                              alt="Warsaw to Ibiza" padding="0px"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/0292dc2c-2c6e-1676-7ab5-9e078eb43b88.png"
+                              alt="Dubai to Mykonos" padding="0"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image css-class="page-5-img" padding-right="4.5px"
+                              src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/9974fad2-264c-eaab-d25d-2ce0674be154.png"
+                              alt="New York to Nice" padding="0"/>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="mobile-only" padding="0 20px 0 20px">
+                <mj-group>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/a3986ad0-d61c-1b63-ac99-c7e81425cf44.png"
+                                alt="Mykonos"/>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/f5f214aa-e2d2-adef-c9f2-9dbe8245c536.png"
+                                alt="Ibiza"/>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/9b96fc96-a1bd-5093-25d2-b64289d0e27c.png"
+                                alt="Mykonos"/>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/3ed53caf-5438-9bf0-3be1-5e2eec83656a.png"
+                                alt="Ibiza"/>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/86a53c7b-2b23-b0a7-1072-be465823151d.png"
+                                alt="Mykonos"/>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/3412d7b7-9553-3850-01b5-9b97a8cbae0a.png"
+                                alt="Saint-Tropez"/>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section padding="30px 20px 0 20px">
+                <mj-column>
+                    <mj-text mj-class="body-text-small" padding="0">Please note that the prices and expected commissions
+                        provided here are approximate and intended for informational purposes only. All flights were
+                        simulated as direct routes without refueling stops.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-wrapper css-class="desktop-only" padding-bottom="0">
+                <mj-section padding="20px 0 0 0px">
+                    <mj-column>
+                        <mj-divider padding="0 18px 10px 18px"/>
+                        <mj-text font-size="40px" line-height="70%" padding="0 0 0 18px">Jetspiration</mj-text>
+                        <mj-text font-size="40px" line-height="90%" padding="0 0 7px 18px">Content</mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-divider padding="0 18px 5px 0"/>
+                        <mj-text mj-class="body-text-small" padding="0 18px 18px 0">Receive tailored white label
+                            marketing materials with flight deals matching your clients' preferences.
+                        </mj-text>
+                        <mj-text mj-class="body-text-small" padding="0 18px 0 0">Get ready-to-use marketing materials,
+                            branded with your logo, and enhance your sales.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0 18px">
+                    <mj-column>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/203c4809-720a-1fbf-e1f4-1ee720d51d5f.png"
+                                alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="15px 0">
+                    <mj-column width="50%">
+                        <mj-text mj-class="body-text-small" padding="0 8px 0 18px">These are our core content options,
+                            but the sky's not the limit! Share what you have in mind, and we’ll bring it to life.
+                        </mj-text>
+                    </mj-column>
+                    <mj-column width="50%">
+                        <mj-text mj-class="body-text-small" padding="0 18px 0 0">All marketing costs are covered by Jets
+                            Better it's our investment in driving your success and strengthening our partnership
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0 0 20px 0">
+                    <mj-column>
+                        <mj-image mj-class="button-image" css-class="b-jets-mob" href="#" padding="0 10px 5px 18px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/39bbf73b-ea4e-f06b-856e-fb7b44668529.png"
+                                  alt="Marketing support button"/>
+                        <mj-image mj-class="button-image" css-class="b-jets-mob" href="#" padding="0 10px 5px 18px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/3a9ab31d-0d14-8c13-d7c0-d5531f42a7ec.png"
+                                  alt="Empty leg flights button"/>
+                        <mj-image css-class="b-jets-mob" href="#" padding="0 10px 5px 18px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/7844b592-1d9d-4286-b9ce-cf801f270785.png"
+                                  alt="Promotional deals button"/>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image mj-class="button-image" css-class="b-jets-mob" href="#" padding="0 18px 5px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/d14626f3-bc10-936a-f839-f2c820a8338d.png"
+                                  alt="Trending destinations button"/>
+                        <mj-image css-class="b-jets-mob" href="#" padding="0 18px 5px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/b2777655-0b42-212d-57c3-0cae07099459.png"
+                                  alt="Jet-worthy events button"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0">
+                    <mj-column>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/807cecda-455c-9823-b6ba-16b36739bc91.png"
+                                alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="30px 0 0 0">
+                    <mj-column>
+                        <mj-image
+                                src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/2abdcab6-6852-5203-f68f-203b27e01021.png"
+                                alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="160px 0 100px 0">
+                    <mj-column width="50%">
+                        <mj-image padding="0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/f039a786-fbd3-0ed0-d5ad-e48802841871.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+            </mj-wrapper>
+            <mj-wrapper css-class="mobile-only">
+                <mj-section padding="10px 20px 20px 20px">
+                    <mj-column>
+                        <mj-divider padding="0 0 0 0"/>
+                        <mj-text align="center" font-size="36px" line-height="110%" padding-bottom="10px">Jetspiration
+                            Content
+                        </mj-text>
+                        <mj-divider padding="0 0 5px 0"/>
+                        <mj-text font-size="14px" line-height="140%" padding-bottom="5px">Receive tailored white label
+                            marketing materials with flight deals matching your clients' preferences.
+                        </mj-text>
+                        <mj-text font-size="14px" line-height="140%" padding-bottom="5px">Get ready-to-use marketing
+                            materials, branded with your logo, and enhance your sales.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0 20px 5px 20px">
+                    <mj-column>
+                        <mj-image padding="0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/203c4809-720a-1fbf-e1f4-1ee720d51d5f.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0 20px 15px 20px">
+                    <mj-column>
+                        <mj-text font-size="14px" line-height="140%" padding-bottom="15px">These are our core content
+                            options, but the sky's not the limit! Share what you have in mind, and we’ll bring it to
+                            life.
+                        </mj-text>
+                        <mj-text font-size="14px" line-height="140%" padding-bottom="15px">All marketing costs are
+                            covered by Jets Better it's our investment in driving your success and strengthening our
+                            partnership.
+                        </mj-text>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="0 20px 0 20px">
+                    <mj-column>
+                        <mj-image href="#" padding="0 0 15px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/39bbf73b-ea4e-f06b-856e-fb7b44668529.png"
+                                  alt="Marketing support button"/>
+                        <mj-image href="#" padding="0 0 15px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/3a9ab31d-0d14-8c13-d7c0-d5531f42a7ec.png"
+                                  alt="Empty leg flights button"/>
+                        <mj-image href="#" padding="0 0 15px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/7844b592-1d9d-4286-b9ce-cf801f270785.png"
+                                  alt="Promotional deals button"/>
+                        <mj-image href="#" padding="0 0 15px 0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/d14626f3-bc10-936a-f839-f2c820a8338d.png"
+                                  alt="Trending destinations button"/>
+                        <mj-image href="#" padding="0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/b2777655-0b42-212d-57c3-0cae07099459.png"
+                                  alt="Jet-worthy events button"/>
+                    </mj-column>
+                </mj-section>
+                <mj-section padding="20px 0 0 0">
+                    <mj-column>
+                        <mj-image padding="0"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/8ae6aeaf-a746-e39f-fef9-9dbb51372e65.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                </mj-section>
+            </mj-wrapper>
+            <mj-section padding="10px 0 0 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-image href="#" width="48px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/179f5e5d-da58-a94c-82fe-7aae4b195550.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" width="48px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/5807322f-ae9b-eebf-1c31-53326f82bd5e.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" width="48px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/525dcca4-c79b-e423-89e5-5a564dcdc70e.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" width="48px"
+                                  src="https://mcusercontent.com/88ae908f15641cc4a5fda1862/images/a1b81147-ad40-598b-247f-1cb56e2bdfb6.png"
+                                  alt="Phones with content"/>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>

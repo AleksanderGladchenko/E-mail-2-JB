@@ -1,0 +1,29 @@
+# macOS specific files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific files
+__pycache__/
+*.pyc
+.env
+venv/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled output
+/build/
+/dist/
+
+# Logs
+*.log
+
+# My local files
+my_secret_keys.txt
+temp_work_folder/
